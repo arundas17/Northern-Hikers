@@ -1,0 +1,29 @@
+.nh-navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+  .nh-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+ 
+.nh-navbar ul li{
+  list-style: none;
+  padding: 6px 10px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+  color: #000;
+}
+.nh-navbar ul li:hover {
+    border-bottom: 3px solid  #000;
+  }
+.nh-navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}

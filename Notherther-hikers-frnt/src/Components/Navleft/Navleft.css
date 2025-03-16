@@ -1,0 +1,8 @@
+.nh-navleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nh-navleft a{
+    font-size: 14px;
+  }

@@ -1,0 +1,64 @@
+.socailConnect{
+    position: absolute;
+    z-index: 999;
+    width: 90%;
+    height: 100vh;
+    margin-top: 40px;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(173, 216, 230, 0.2); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); 
+    border: 2px solid rgba(173, 216, 230, 0.3); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.socailConnect-header{
+    position: sticky;
+    top: 10px;
+    position: sticky;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* }
+.socailConnect h3{
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.socailConnect h4{
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.21rem;
+}
+.socailConnect-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.socailConnect-logo img{
+    width: 112px;
+    cursor: pointer;
+}
+.socailConnect-logo:hover{
+    filter: opacity(.8);
+}
+.socilconnect-intro{
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+} */
+
+ 

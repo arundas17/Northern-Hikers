@@ -1,0 +1,38 @@
+.nhval-arrivals{
+    margin-top: 500px;
+}
+.arrivals-outer{
+    display: flex;
+}
+.arrivals-outer img{
+    width: 339px;
+    height: 151px;
+}
+.arrivals-outer img:hover{
+    filter: opacity(0.8);
+    cursor: pointer;
+}
+.arrivals-item div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease-in;
+    
+}
+.arrivals-item div:hover{
+    padding: 2px;
+    border-bottom: 1px solid #000;
+}
+.Arrivals h4{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.21rem;
+}

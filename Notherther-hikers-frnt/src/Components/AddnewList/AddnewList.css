@@ -1,0 +1,47 @@
+.addnewlist {
+    font-family: math;
+    color: #121E40;
+}
+
+.addnewlist .formcontrol{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.addnewlist .formcontrol label{
+    color: #121E40;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.addnewlist .formcontrol input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: transparent;
+}
+.addnewlist .submit-btn {
+    background-color: #121E40;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 20px auto;
+  }
+  
+.addnewlist .submit-btn:hover {
+    background-color: #246a40; 
+  }
+  
+.addnewlist .submit-btn:active {
+    transform: scale(0.98);
+  }
+  

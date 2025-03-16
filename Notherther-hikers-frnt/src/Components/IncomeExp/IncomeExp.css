@@ -1,0 +1,41 @@
+.icomeExp{
+    font-family: math;
+    color: #121E40;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.incomexp-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 20px;
+
+}
+.icomeExp h4{
+    margin: 4px;
+    font-size:20px;
+}
+.icomeExp h1{
+    margin: 0;
+    font-size: 24px;
+}
+.icomeExp .money-plus{
+    font-size: 20px;
+    margin: 4px;
+    color: green;
+    font-weight: 600;
+}
+.icomeExp .money-minus{
+    font-size: 20px;
+    margin: 4px;
+    color: red;
+    font-weight: 600;
+}
+.icomeExp .barrier{
+    width: 2px;
+    height: 50px;
+    width: 2px;
+    height: 50px;
+    background-color: bisque;
+}

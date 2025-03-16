@@ -1,0 +1,10 @@
+.nh-banner{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.nh-banner-item{
+    height: 600px !important;
+}
