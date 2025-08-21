@@ -45,21 +45,20 @@ const NhFooter = () => {
   return (
     <div className="Nh-footer">
       <div className="barrier"></div>
-       <div className="Nh-newsletter">
+      <div className="Nh-newsletter">
         <h4>Sign up to receive the Northern Hikers newsletter</h4>
         <form action="">
-        <input type="text" placeholder="insert your mail"/>
-        <button>SIGN UP</button>
+          <input type="text" placeholder="insert your mail" />
+          <button>SIGN UP</button>
         </form>
-       
-       </div>
+      </div>
       <div className="barrier"></div>
       <div className="Nh-footer-wrapper">
         <div className="customer-care">
           <h4>Customer Care</h4>
           <ul>
             {customerCare.map((item) => (
-              <li key={item.display}>
+              <li key={item.display}> 
                 <a href={item.path}>{item.display}</a>
               </li>
             ))}
